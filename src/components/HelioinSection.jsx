@@ -196,7 +196,7 @@ function HelioinSection() {
           animate="visible"
         >
           <motion.div variants={itemVariants}>
-            <DecryptingText text="HELIOIN" />
+            <DecryptingText text="Only Helio" />
           </motion.div>
 
           <motion.p
