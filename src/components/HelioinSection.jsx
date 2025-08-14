@@ -208,7 +208,7 @@ function HelioinSection() {
 
           <motion.div variants={itemVariants}>
             <Link
-              to="/projects"
+              to="/real-estate"
               className="relative mt-8 inline-block border border-amber-400 text-amber-400 py-3 px-8 uppercase text-sm font-semibold rounded-md overflow-hidden group"
             >
               <span className="absolute inset-0 bg-amber-400 z-0 transition-transform duration-300 ease-in-out group-hover:translate-x-0 translate-x-[-101%]"></span>
