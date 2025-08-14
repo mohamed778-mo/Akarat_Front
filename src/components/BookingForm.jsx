@@ -22,7 +22,7 @@ function BookingForm({ isOpen, onClose, propertyId, availableDates = [] }) {
     const handleInputChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
     const resetForm = () => { /* ... */ setFormData({ first_name: '', last_name: '', email: '', phone: '', date: '', note: '' }); setSubmitStatus(null); setError(''); };
     const handleClose = () => { /* ... */ resetForm(); onClose(); };
-    const handleSubmit = async (e) => { /* ... (الكود كما هو) ... */ e.preventDefault(); setIsSubmitting(true); setError(''); setSubmitStatus(null); const API_URL = ` http://localhost:5000/app/website/create_booking/${propertyId}`; try { await axios.post(API_URL, formData); setSubmitStatus('success'); setTimeout(handleClose, 2500); } catch (error) { console.error('Booking failed:', error); setSubmitStatus('error'); setError('حدث خطأ. يرجى التأكد من بياناتك والمحاولة مرة أخرى.'); } finally { setIsSubmitting(false); } };
+    const handleSubmit = async (e) => { /* ... (الكود كما هو) ... */ e.preventDefault(); setIsSubmitting(true); setError(''); setSubmitStatus(null); const API_URL = `https://akarat-six.vercel.app/app/website/create_booking/${propertyId}`; try { await axios.post(API_URL, formData); setSubmitStatus('success'); setTimeout(handleClose, 2500); } catch (error) { console.error('Booking failed:', error); setSubmitStatus('error'); setError('حدث خطأ. يرجى التأكد من بياناتك والمحاولة مرة أخرى.'); } finally { setIsSubmitting(false); } };
 
     // ===================== هذا هو السطر الذي تم تعديله =====================
     const validAndFormattedDates = useMemo(() => {
@@ -142,5 +142,6 @@ function BookingForm({ isOpen, onClose, propertyId, availableDates = [] }) {
         </Modal>
     );
 }
+
 
 export default BookingForm;
