@@ -17,7 +17,7 @@ gsap.registerPlugin(ScrollTrigger);
 const servicesData = [
   {
     id: 1,
-    title: "التصميم الديكوري",
+    title: "الديكورات والتحف",
     description:
       "نخلق مساحات داخلية تعكس ذوقك الرفيع وتجمع بين الجمال والوظيفة العملية.",
     to: "/decorations",
