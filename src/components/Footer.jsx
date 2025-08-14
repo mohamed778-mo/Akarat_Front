@@ -251,7 +251,7 @@ function Footer() {
         </div>
 
         <div className="mt-12 border-t border-slate-200 pt-8 text-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Helioin. جميع الحقوق محفوظة.</p>
+          <p>&copy; {new Date().getFullYear()} Only Helio. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </motion.footer>
