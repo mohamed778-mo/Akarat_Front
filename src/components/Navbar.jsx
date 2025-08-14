@@ -56,7 +56,7 @@ function Navbar() {
                   alt="Helioin Logo"
                 />
                 <span className="text-xl font-bold uppercase tracking-wider hidden sm:block font-brand text-gradient-brand">
-                  Helioin
+                  Only Helio
                 </span>
               </NavLink>
             </div>
