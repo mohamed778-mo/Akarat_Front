@@ -164,7 +164,7 @@ function HelioinSection() {
         <link rel="preload" as="image" href={heroImage1} />
         <link rel="preload" as="image" href={heroImage2} />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="HELIOIN | روائع معمارية" />
+        <meta property="og:title" content="Only Helio | روائع معمارية" />
         <meta
           property="og:description"
           content="نحن نصنع روائع معمارية تغير من مفهومك للجمال والوظيفة."
