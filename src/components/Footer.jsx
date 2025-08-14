@@ -124,7 +124,7 @@ function Footer() {
                 alt="Helioin Logo"
               />
               <span className="text-2xl font-bold uppercase font-brand text-gradient-brand">
-                Helioin
+                Only Helio
               </span>
             </Link>
             <p className="text-sm text-slate-500 leading-relaxed">
